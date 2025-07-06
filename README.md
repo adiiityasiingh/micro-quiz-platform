@@ -4,7 +4,7 @@ A modern, interactive quiz platform built with Next.js 14 (App Router), TypeScri
 
 ## 🚀 Live Demo
 
-[Deploy on Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+[Deploy on Vercel](https://micro-quiz-platform-adiiityasiinghs-projects.vercel.app/)
 
 ## ✨ Features
 
