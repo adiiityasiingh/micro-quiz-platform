@@ -27,9 +27,9 @@ const colorMap: Record<string, string> = {
 };
 
 interface PageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
 

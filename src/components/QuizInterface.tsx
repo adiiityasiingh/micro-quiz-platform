@@ -48,6 +48,7 @@ const QuizInterface: React.FC<QuizInterfaceProps> = ({ quiz, onBack, onComplete 
     }, 1000);
 
     return () => clearInterval(timer);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentQuestion, showResults]);
 
   const handleAnswerSelect = (answerIndex: number) => {

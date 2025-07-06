@@ -8,9 +8,9 @@ import { getQuizByIdSSR, getCategoryByIdSSR } from '@/lib/api';
 import { Quiz, Category } from '@/data/quizzes';
 
 interface PageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 // This function runs on the server for each request (SSR)
